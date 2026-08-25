@@ -57,3 +57,5 @@ a=None
 print(type(old))
 print(type(age))
 print(type(a))
+print("farhan ahmad")
+print("hellow world")
