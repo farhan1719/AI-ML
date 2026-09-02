@@ -44,7 +44,61 @@ print(str[7:]) #[7:len(str)]
 # negativ index slicing
 str="apple"                                                 #  a  p  p  l  e
 print(str[-3:-1])                                           # -5 -4 -3 -2 -1
-print(str[-5:-2])                                           str[a:b], here last letter got (-1) and first letter got (-5), and same as slicing it include firsh letter of firt digit (a) and exclude last letter of last digit (b)
+print(str[-5:-2])                                           #str[a:b], here last letter got (-1) and first letter got (-5), and same as slicing it include firsh letter of firt digit (a) and exclude last letter of last digit (b)
 print(str[-3:-1])
+
+
+
+#STRING FUNCTIONS
+ #str.endswith("er")
+str="I am studying python from ApnaCollege"                # str.endswith("xyZ") using this we can check xyZ is a last letters of a string yess or no.
+print(str.endswith("app"))                                 # return true if string ends with substr
+print(str.endswith("ege"))
+
+ #str.capitalie()
+str="i am studying python from ApnaCollege"
+print(str.capitalize())                                    # str.capitalize(), using this we can only capitalize first letter of a sentence, rest smaller 
+print(str)                                                 # or it cannot change the orignal.
+
+str="i am studying python from ApnaCollege"                # but if we want to change the original one so the can do this
+str=(str.capitalize())
+print(str)  
+
+ #str.replace(old,new)
+str="i am studying python from ApnaCollege"                # str.replace(old,new), using this we can replace , word or letter.
+print(str.replace("o","a"))
+print(str.replace("python","javascript"))
+                                                    # self made
+                                                    #str="i am studying python from ApnaCollege"
+                                                    #a=input("a=")
+                                                    #b=input("b=")
+                                                    #print(str.replace(a,b))
+ 
+ #str.find(word)
+str="i am studying python from ApnaCollege"
+print(str.find("o"))                                        # str.find(word), using this we can find a word or character from a string, like "o","am"
+print(str.find("am"))                                       # and result shows index no of a character or word , like "o" shows 18, and "am" shows 2.
+print(str.find("Q"))                                        # and which letter, or character does not exist in a string , the result shows -1.
+
+ #str.count("am")
+str="i am studying python from ApnaCollege"                 # str.count("am"), using this we count the no of word or character are repeated in a string.
+print(str.count("o"))
+print(str.count("from"))
+
+
+
+#practice Questions
+# 1.WAP to input user's first name & print its length.
+#a=input("Enter Your First Name:")
+#print("Length of your name is:",len(a))
+
+# 2.WAP to find the occurrence of '$' in a string.
+#str= "Hi am am $ $a $ symbol$ $99.99"
+#print(str.count("$"))
+
+
+
+#CONDITIONAL STATEMENTS
+
 
 
