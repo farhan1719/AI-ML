@@ -99,6 +99,75 @@ print(str.count("from"))
 
 
 #CONDITIONAL STATEMENTS
+age=21                              # if(contition):, elif(condition):, else: are conditional statements. using this we can check a condition is true or false.
+if(age>=18):
+    print("can vote & drive")       # we can write multiple times elif, or if statement, but always starts with if statement
+
+light= "green"
+if(light=="red"):
+    print("stop")
+elif(light=="green"):
+    print("go")
+elif(light=="yellow"):
+    print("wait")
+
+print("end of code")
+
+num=5                               # also we can write multiple times if statements, and every times it checks the condition is true or false, and if it is true then it executes the code.
+if(num>2):                          
+    print("grater than 2")          
+if(num>3):
+    print("grater than 3")
+
+num=5
+if(num>2):
+    print("grater than 2")          # but elif statement checks when if statement is false, then it checks the condition of elif statement, and if it is true then it executes the code.
+elif(num>3):
+    print("grater than 3")
+
+light= "pink"                       
+if(light=="red"):                   
+    print("Stop")                     
+elif(light=="green"):               
+    print("Go")
+elif(light=="yellow"):
+    print("Wait")
+else:                               # else statement, we can writw it at the end , and only one time, and it executes the code when all the if and elif statements are false.
+    print("Light is broken")
+
+age=12
+if(age>=18):
+    print ("Can Vote")
+else:
+    print("Can not Vote")
+
+print("end of code")
+
+ #Grade student based on marks
+marks =int(input("Enter student marks:"))
+
+if(marks>=90):
+    grade="A"
+elif(marks>=80 and marks<90):
+    grade="B"
+elif(marks>=70 and marks<80):
+    grade="C"
+else:
+    grade="D"
+
+print("Grade of student is:",grade)
+
+ # same in my way
+#marks=int(input("Enter your marks:"))
+#if(marks>=90):
+#    print("Grade A")
+#if(90>marks>=80):
+#    print("Grade B")
+#if(80>marks>=70):
+#    print("Grade C")
+#if(70>marks):
+#   print("Grade D")
+
 
 
 

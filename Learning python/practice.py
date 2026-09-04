@@ -59,3 +59,10 @@ print(type(age))
 print(type(a))
 print("farhan ahmad")
 print("hellow world")
+
+
+age=int(input("Enter your age: "))
+if(age>=18):
+    print("can vote & drive")
+elif(age<18):
+    print("can not vote & drive")
