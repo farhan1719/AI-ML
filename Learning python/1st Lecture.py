@@ -182,7 +182,7 @@ print(type(a))
 a=int(input("a:"))
 b=int(input("b:"))
 print("Result:",a>=b)
-print("farhan Ahmad")
 
+print("End of 1st Lecture")
 
 

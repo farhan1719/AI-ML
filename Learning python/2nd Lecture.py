@@ -144,7 +144,7 @@ else:
 print("end of code")
 
  #Grade student based on marks
-marks =int(input("Enter student marks:"))
+marks=90
 
 if(marks>=90):
     grade="A"
@@ -157,17 +157,26 @@ else:
 
 print("Grade of student is:",grade)
 
- # same in my way
-#marks=int(input("Enter your marks:"))
-#if(marks>=90):
-#    print("Grade A")
-#if(90>marks>=80):
-#    print("Grade B")
-#if(80>marks>=70):
-#    print("Grade C")
-#if(70>marks):
-#   print("Grade D")
+        # same in my way
+        #marks=int(input("Enter your marks:"))
+        #if(marks>=90):
+        #    print("Grade A")
+        #if(90>marks>=80):
+        #    print("Grade B")
+        #if(80>marks>=70):
+        #    print("Grade C")
+        #if(70>marks):
+        #   print("Grade D")
 
 
+#Nesting
+age=25                                      # in Nesting we can write if statement inside another if statement, and it is used when we have multiple conditions to check.
+if(age>=18):
+    if(age>=80):
+        print("Can not drive")
+    else:
+        print("Can drive")
+else:
+    print("Can not drive")
 
 
