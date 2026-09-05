@@ -180,3 +180,55 @@ else:
     print("Can not drive")
 
 
+
+#PRACTICE QUESTIONS
+# 1.WAP to check if a number entered by the user is odd or even.
+#num=int(input("Enter your number:"))
+#if(num%2==0):
+#    print("Even number")
+#else:
+#    print("Odd number")
+
+
+# 2.WAP to find the gratest of 3 numbers entered by the user.
+#a=int(input("Enter first number:"))
+#b=int(input("Enter second number:"))
+#c=int(input("Enter third number:"))
+
+#if(a>=b and a>=c):
+#   print("First is gratest",a)
+#elif(b>=c):
+#   print("Second is gratest",b)
+#else:
+#   print("Third is gratest",c)
+
+
+# 3.WAP to find the gratest of 4 numbers entered by the user.
+#a=int(input("Enter First Number:"))
+#b=int(input("Enter Second Number:"))
+#c=int(input("Enter Third Number:"))
+#d=int(input("Enter Fourth Number:"))
+#
+#if(a>=b and a>=c and a>=d ):
+#    print("First is Gratest",a)
+#elif(b>=c and b>=d):
+#    print("Second is Gratest",b)
+#elif(c>=d):
+#    print("Third is Gratest",c)
+#else:
+#    print("Fourth is Gratest",d)
+
+
+# 4.WAP to check if a number is a multiple of 7 or not.
+#a=int(input("Enter Your Number:"))
+#
+#if(a%7==0):
+#    print(a,"is a multiple of 7.")
+#else:
+#    print(a,"is not a multiple of 7.")
+
+print("End of 1st Lecture")
+
+ 
+
+

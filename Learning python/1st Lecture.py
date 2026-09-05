@@ -162,26 +162,26 @@ print(type(a))
 
 
 
-#practice Questions
+#PRACTICE QUESTIONS
 # 1.write a program to input 2 numbers & print their sum.
-#a=int(input("Enter your maths marks:"))
-#b=int(input("Enter your physics marks:"))
-#print("Total marks:",a+b)
+ #a=int(input("Enter your maths marks:"))
+ #b=int(input("Enter your physics marks:"))
+ #print("Total marks:",a+b)
 
 # 2.WAP to input side of a square & print its area.
-#a=float(input("Side of a Square:"))
-#print("Area of a Square:",a*a)
+ #a=float(input("Side of a Square:"))
+ #print("Area of a Square:",a*a)
 
 # 3.WAP to input 2 floting point number & print their average.
-#a=float(input("Your first floting value:"))
-#b=float(input("Your second floting value:"))
-#print("Average floting value",(a+b)/2)
+ #a=float(input("Your first floting value:"))
+ #b=float(input("Your second floting value:"))
+ #print("Average floting value",(a+b)/2)
 
 # 4.WAP to input 2 int numbers, a and b.
 #print True if a is grater than or equal to b, if not False.
-a=int(input("a:"))
-b=int(input("b:"))
-print("Result:",a>=b)
+ #a=int(input("a:"))
+ #b=int(input("b:"))
+ #print("Result:",a>=b)
 
 print("End of 1st Lecture")
 
